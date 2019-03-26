@@ -1,37 +1,7 @@
-*.mo
-.DS_Store
-.sass-cache
-.idea
-.podcache.yaml
-.vscode
-*.pyc
-*.log
-node_modules
-.com.apple.timemachine.supported
-
-dist
-/build
-assets/css/*
-.depcache.json
-
-# Ignore dynamically built and collected files that are only
-# used during development
-pages/podspec.yaml
-pages/css
-pages/icons
-pages/macros
-pages/partials
-pages/templates
-pages/layouts
-pages/views
-pages/content/amp-dev/documentation/examples/*/**
-!pages/content/amp-dev/documentation/examples/*/**/_blueprint.yaml
-pages/content/amp-dev/documentation/components/reference/*.md
-
-# Ignore files created during build process
-platform/pages*
-platform/static
-
-# Ignore pipeline cache
-.cache/**/*
-!.cache/.gitkeep
+/nbproject/
+/.idea/*
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
